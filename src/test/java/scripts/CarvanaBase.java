@@ -4,12 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.CarvanaBasePage;
+import pages.CarvanaSearchCarsPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
 public class CarvanaBase {
-    public WebDriver driver;
+    WebDriver driver;
     CarvanaBasePage carvanaBasePage;
+    CarvanaSearchCarsPage carvanaSearchCarsPage;
 
     @BeforeMethod
     public void setup() {

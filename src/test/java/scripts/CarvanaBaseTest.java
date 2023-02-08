@@ -74,6 +74,4 @@ public class CarvanaBaseTest extends CarvanaBase {
 
         Assert.assertEquals(carvanaBasePage.errorBanner.getText(), expectedErrorMessage);
     }
-
-
 }

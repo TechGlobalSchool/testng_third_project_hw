@@ -36,4 +36,7 @@ public class CarvanaBasePage {
 
     @FindBy(id = "error-banner")
     public WebElement errorBanner;
+
+    @FindBy(css = "div[data-qa='header-items']>a")
+    public List<WebElement> headerItems;
 }
